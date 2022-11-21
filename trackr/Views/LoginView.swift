@@ -15,41 +15,26 @@ struct LoginView: View {
     @State var password = ""
     
     var body: some View {
-        NavigationView {
-            VStack(spacing: 16) {
-                Picker("", selection: $isLogin) {
-                    Text("Log In")
-                        .tag(true)
-                    Text("Create Account")
-                        .tag(false)
-                }
-                    .pickerStyle(SegmentedPickerStyle())
-                    .padding()
+            VStack(spacing: 16.0) {
+                Text("Create Account")
+                Spacer()
                 TextField("Email", text: $email)
                     .keyboardType(.emailAddress)
                     .disableAutocorrection(true)
                     .autocapitalization(.none)
                     .textFieldStyle(.roundedBorder)
-                    .frame(width: 280, height: 45, alignment: .center)
+                    .frame(width: .infinity, height: 45)
                 SecureField("Password", text: $password)
                     .textFieldStyle(.roundedBorder)
-                    .frame(width: 280, height: 45, alignment: .center)
-                Spacer()
-                Button(action: {
-                    if isLogin {
-                        loginUser()
-                    }
-                    else {
-                        createUser()
-                    }
-                }, label: {
-                    Text(isLogin ? "Log In" : "Create Account")
-                        .foregroundColor(.white)
-                }).frame(width: 280, height: 45, alignment: .center)
-                    .background(Color.blue)
-                    .cornerRadius(8)
-                    }.navigationTitle(isLogin ? "Welcome Back" : "Welcome")
+                    .frame(width: .infinity, height: 45)
+                Button(action: {isLogin ? loginUser() : createUser()}) {
+                    Text(isLogin ? "Signin" : "Create")
+                        .frame(maxWidth: .infinity)
                 }
+                .tint(Color("Accent"))
+                .buttonStyle(.borderedProminent)
+            }
+            .padding(.horizontal, 20.0)
     }
     
     private func loginUser() {

@@ -7,6 +7,6 @@
 
 import Foundation
 
-enum CategoryEnum {
+enum Category {
    case Abs, Back, Biceps, Cardio, Chest, Legs, Shoulders, Triceps
 }

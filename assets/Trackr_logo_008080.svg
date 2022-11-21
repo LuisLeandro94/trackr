@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg162"
+   width="295"
+   height="295"
+   viewBox="0 0 295 295"
+   sodipodi:docname="Trackr_logo_008080.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs166" />
+  <sodipodi:namedview
+     id="namedview164"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="1.4389831"
+     inkscape:cx="125.43581"
+     inkscape:cy="167.13192"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="1920"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g168" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g168">
+    <g
+       id="g447">
+      <path
+         style="fill:#008080;stroke-width:0.1"
+         d="m 59.050224,55.604452 191.821386,0.03071 0.0614,43.066714 -71.04658,-0.06142 0.12285,32.130216 32.29341,14.12332 -1.638,2.8371 -64.38085,-28.20223 -2.0848,3.12721 35.81024,15.82031 -0.0614,39.42704 -101.42019,-46.90813 51.42521,4.51708 0.0614,-36.871916 -70.983355,0.03071 z"
+         id="path276"
+         sodipodi:nodetypes="cccccccccccccccc" />
+      <path
+         style="fill:#008080;stroke-width:0.1"
+         d="m 129.97397,178.8335 88.06195,42.32963 -38.04173,-10.22294 0,25.52205 -99.381705,-48.30853 2.801346,-4.85207 -57.874962,-27.28868 2.208034,-3.82443 143.380897,68.10593 2.25854,-3.64841 -43.43345,-20.15312 z"
+         id="path278"
+         sodipodi:nodetypes="cccccccccccc" />
+      <path
+         style="fill:#008080;stroke-width:0.1"
+         d="m 129.99323,217.27957 -0.0614,50.44422 h 50.0775 v -26.22327 z"
+         id="path280"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+  </g>
+</svg>
